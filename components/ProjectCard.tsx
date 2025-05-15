@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { Project } from "@/types";
 
 import styles from "@/styles/ProjectCard.module.css";

@@ -10,7 +10,7 @@ const AboutPage = () => {
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hey! I'm a software engineer from Nepal. I primarily work with
+              Hey! I&apos;m a web developer from Nepal. I primarily work with
               JavaScript and the React ecosystem, building modern, responsive
               web applications with a focus on clean code and user-centered
               design.
