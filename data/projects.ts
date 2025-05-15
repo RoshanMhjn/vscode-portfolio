@@ -1,42 +1,39 @@
 export interface Project {
   title: string;
   description: string;
-  logo: string;
   link: string;
   slug: string;
 }
 
 export const projects: Project[] = [
   {
-    title: 'Driwwwle',
-    description:
-      'Discover creative websites and developers. A portal for you to share your projects.',
-    logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
-    slug: 'driwwwle',
+    title: "College Website",
+    description: "College website made using tailwind CSS",
+    link: "https://github.com/RoshanMhjn/bfc",
+    slug: "bfc",
   },
   {
-    title: 'VSCode Portfolio',
-    description:
-      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
-    logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
-    slug: 'vscode-portfolio',
+    title: "Ecommerce Store",
+    description: "Ecommerce store made using MERN stack",
+    link: "https://github.com/RoshanMhjn/ecommerce",
+    slug: "ecommerce",
   },
   {
-    title: 'Subtrackt',
-    description:
-      'A simple and elegant way to track your subscriptions and save money.',
-    logo: '/logos/subtrackt.svg',
-    link: 'https://github.com/itsnitinr/subtrackt',
-    slug: 'subtrackt',
+    title: "Travel Website",
+    description: "Simple travel website made using HTML, CSS, JS",
+    link: "https://github.com/RoshanMhjn/travel",
+    slug: "travel",
   },
   {
-    title: 'Coolify Deployments',
-    description:
-      'VSCode extension to track and deploy your Coolify applications.',
-    logo: '/logos/coolify.svg',
-    link: 'https://github.com/itsnitinr/coolify-vscode-extension',
-    slug: 'coolify-vscode-extension',
+    title: "Expense Tracker App",
+    description: "Expense Tracker app made using ReactJS",
+    link: "https://github.com/RoshanMhjn/expense-tracker",
+    slug: "expense-tracker",
+  },
+  {
+    title: "MERN Blog App",
+    description: "Blog App made using MERN Stack",
+    link: "https://github.com/RoshanMhjn/whimsy-new",
+    slug: "mern-blog",
   },
 ];
