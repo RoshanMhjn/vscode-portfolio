@@ -3,16 +3,16 @@ import { useRouter } from "next/router";
 import {
   VscAccount,
   VscSettings,
-  VscGithubAlt,
   VscCode,
   VscFiles,
+  VscBell,
 } from "react-icons/vsc";
 
 import styles from "@/styles/Sidebar.module.css";
 
 const sidebarTopItems = [
   { Icon: VscFiles, path: "/" },
-  { Icon: VscGithubAlt, path: "/github" },
+  { Icon: VscBell, path: "/contact" },
   { Icon: VscCode, path: "/projects" },
 ];
 
